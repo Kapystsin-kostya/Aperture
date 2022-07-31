@@ -147,16 +147,17 @@ ul.menu-items li:last-child {
 section.areas {
    width: 1440px;
    margin: 0 auto;
-   border: 1px solid blue;
    padding-top: 50px;
+   border-left: 1px solid rgb(58, 58, 58);
+   border-right: 1px solid rgb(58, 58, 58);
 }
 .areas_title {
    width: 600px;
-   border: 1px solid red;
    color: #fff;
    text-align: center;
    margin: 0 auto;
    font-family: "Poppins", sans-serif;
+   margin-bottom: 40px;
 }
 .areas_title .title {
    font-size: 40px;
@@ -167,23 +168,74 @@ div.areas_title p {
    font-size: 23px;
    color: rgb(192, 192, 192, 100%);
 }
-.apple-architecture {
-   width: 81.5%;
+.section-size {
+   width: 81.2%;
    height: 617px;
    margin: 0 auto;
-   border: 1px solid yellow;
 }
-.apple-architecture .apple {
+.block-size {
    width: 576px;
    height: 600px;
-   border: 1px solid green;
+}
+.apple {
    float: left;
    background: url(../img/areas_photo/apple.svg);
 }
 .architecture {
-   width: 576px;
-   height: 600px;
-   border: 1px solid purple;
    float: right;
    background: url(../img/areas_photo/architecture.svg);
+}
+.drone {
+   float: left;
+   background: url(../img/areas_photo/drone.svg);
+}
+.wildlife {
+   float: right;
+   background: url(../img/areas_photo/wildlife.svg);
+}
+.areas-button {
+   width: 143px;
+   height: 42px;
+   text-align: center;
+   background-color: #fff;
+   border-radius: 14px;
+}
+.areas-button .circle {
+   width: 32px;
+   height: 32px;
+   float: left;
+   background-color: black;
+   border-radius: 50px;
+   margin: 5px 0 0 5px;
+}
+.areas-button button {
+   border: none;
+   background-color: #fff;
+   font: 400 15px "Poppins", sans-serif;
+   margin: 8px 0 0 -5px;
+}
+.block-text {
+   font: 14px "Poppins", sans-serif;
+}
+.block-text h3 {
+   color: #fff;
+   text-transform: uppercase;
+   font-weight: 200;
+   letter-spacing: 2px;
+   margin-bottom: -5px;
+}
+.block-text p {
+   color: rgb(192, 192, 192, 100%);
+   text-align: justify;
+}
+.areas-block-content {
+   width: 515px;
+   height: 180px;
+   margin: 415px 0 0 25px;
+}
+.drone .areas-block-content {
+   margin: 400px 0 0 25px;
+}
+.wildlife .areas-block-content {
+   margin: 400px 0 0 25px;
 }
