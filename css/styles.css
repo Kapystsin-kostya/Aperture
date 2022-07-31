@@ -147,6 +147,7 @@ section.areas {
    padding-top: 50px;
    border-left: 1px solid rgb(58, 58, 58);
    border-right: 1px solid rgb(58, 58, 58);
+   padding-bottom: 80px;
 }
 .areas_title {
    width: 600px;
@@ -194,7 +195,7 @@ div.areas_title p {
    width: 143px;
    height: 42px;
    text-align: center;
-   background-color: #fff;
+   background-color: rgb(255, 255, 255, 100%);
    border-radius: 14px;
 }
 .areas-button .circle {
@@ -207,7 +208,7 @@ div.areas_title p {
 }
 .areas-button button {
    border: none;
-   background-color: #fff;
+   background-color: rgb(255, 255, 255, 100%);
    font: 400 15px "Poppins", sans-serif;
    margin: 8px 0 0 -5px;
 }
@@ -235,4 +236,48 @@ div.areas_title p {
 }
 .wildlife .areas-block-content {
    margin: 400px 0 0 25px;
+}
+.mount-fuji {
+   width: 1440px;
+   height: 600px;
+   margin: 0 auto;
+   border-left: 1px solid rgb(58, 58, 58);
+   border-right: 1px solid rgb(58, 58, 58);
+   background: url(../img/Mount\ Fuji.svg);
+   text-align: right;
+}
+.mount-fuji .photo-options {
+   margin: 0 auto;
+   float: none;
+   width: 282px;
+   display: inline-block;
+   margin: 200px 45px 0 0;
+}
+.mount-fuji div.sec {
+   margin-left: 6px;
+}
+.mount-fuji div.focus {
+   width: 54px;
+}
+.mount-fuji div.iso {
+   width: 73px;
+}
+.mount-fuji section.text {
+   width: 305px;
+   height: 85px;
+   text-align: left;
+   font: 400 14px "Poppins", sans-serif;
+   margin-left: 1095px;
+   padding-top: 260px;
+}
+.mount-fuji section.text h3 {
+   margin: 0 auto;
+   color: #fff;
+   font-weight: 200;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+.mount-fuji section.text p {
+   margin: 0 auto;
+   color: rgb(192, 192, 192, 100%);
 }
