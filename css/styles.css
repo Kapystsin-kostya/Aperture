@@ -596,3 +596,69 @@ div.services .title {
    color: rgb(192, 192, 192);
    margin-top: -10px;
 }
+
+.footer {
+   width: 1920px;
+   height: 800px;
+   margin: 0 auto;
+   border-left: 0.5px solid rgb(58, 58, 58);
+   border-right: 0.5px solid rgb(58, 58, 58);
+}
+
+footer .menu-list {
+   width: 82%;
+   height: 300px;
+   margin: 0 auto;
+}
+
+footer .aperture {
+   width: 425px;
+   float: left;
+}
+
+.aperture p {
+   font: 400 13px "Poppins", sans-serif;
+   color: rgb(192, 192, 192);
+}
+
+.menu-list .pages {
+   width: 300px;
+   float: right;
+}
+
+ul.pages_menu {
+   list-style-type: none;
+   padding: 0;
+   margin-top: 10px;
+}
+
+.list_title_font {
+   font: 200 14px "Poppins", sans-serif;
+   color: rgb(192, 192, 192);
+   letter-spacing: 2px;
+   margin: 0 auto;
+   text-transform: uppercase;
+}
+
+.list_font {
+   font: 400 13px "Poppins", sans-serif;
+   color: #fff;
+   margin-bottom: 10px;
+}
+
+.business_areas {
+   width: 250px;
+   float: right;
+}
+
+ul.business_menu {
+   list-style-type: none;
+   padding: 0;
+   margin-top: 10px;
+}
+
+div.business_areas li {
+   font: 400 14px "Poppins", sans-serif;
+   color: #fff;
+   margin-bottom: 10px;
+}
