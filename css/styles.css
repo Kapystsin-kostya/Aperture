@@ -71,11 +71,11 @@ body {
 
 .main-page {
    width: 1920px;
-   height: 710px;
+   height: 950px;
    margin: 0 auto;
    border-right: 1px solid rgb(58, 58, 58);
    border-left: 1px solid rgb(58, 58, 58);
-   background: linear-gradient(360deg, #000000 18.78%, rgba(0, 0, 0, 0) 98.53%), url(../img/BACKGROUND.svg);
+   background: linear-gradient(360deg, #000000 18.78%, rgba(0, 0, 0, 0) 20%), url(../img/BACKGROUND.svg);
    background-size: cover;
 }
 
@@ -86,7 +86,7 @@ body {
    font-size: 12px;
    color: rgb(255, 255, 255, 100%);
    float: right;
-   margin: 700px 85px 0 0;
+   margin: 860px 85px 0 0;
 }
 
 .sec {
@@ -131,7 +131,7 @@ body {
    height: 30%;
    float: left;
    text-align: center;
-   margin: 410px 0px 0px 665px;
+   margin: 520px 0px 0px 665px;
 }
 
 .text-profession {
@@ -282,7 +282,7 @@ div.areas_title p {
 
 .mount-fuji {
    width: 1920px;
-   height: 600px;
+   height: 785px;
    margin: 0 auto;
    border-left: 1px solid rgb(58, 58, 58);
    border-right: 1px solid rgb(58, 58, 58);
@@ -296,7 +296,7 @@ div.areas_title p {
    float: none;
    width: 282px;
    display: inline-block;
-   margin: 180px 75px 0 0;
+   margin: 270px 75px 0 0;
 }
 
 .mount-fuji div.sec {
@@ -317,7 +317,7 @@ div.areas_title p {
    text-align: left;
    font: 400 14px "Poppins", sans-serif;
    margin-left: 1500px;
-   padding-top: 270px;
+   padding-top: 355px;
 }
 
 .mount-fuji section.text h3 {
@@ -334,4 +334,44 @@ div.areas_title p {
 }
 .drone-wildlife {
    margin-top: 20px;
+}
+
+.tools {
+   width: 1920px;
+   height: 715px;
+   border: 1px solid red;
+   margin: 0 auto;
+}
+
+.tools .container {
+   width: 49%;
+   height: 100%;
+   float: left;
+   border: 1px solid yellow;
+}
+
+.tools_image {
+   width: 50%;
+   height: 100%;
+   float: right;
+   background: url(../img/tools_image/Tools.svg);
+   background-size: cover;
+   border: 1px solid blue;
+}
+
+.tools_image .photo-options {
+   width: 270px;
+   margin: 0 auto;
+}
+
+.tools_image div.sec {
+   width: 30px;
+}
+
+.tools_image div.focus {
+   width: 55px;
+}
+
+.tools_image div.iso {
+   width: 70px;
 }
