@@ -1,5 +1,6 @@
 body {
    background-color: black;
+   margin: 0 auto;
 }
 
 .header {
@@ -330,24 +331,25 @@ div.areas_title p {
 
 .mount-fuji section.text p {
    margin: 0 auto;
-   color: rgb(192, 192, 192, 100%);
+   color: rgb(192, 192, 192);
 }
 .drone-wildlife {
    margin-top: 20px;
 }
 
-.tools {
+div.tools {
    width: 1920px;
    height: 715px;
-   border: 1px solid red;
    margin: 0 auto;
+   border-left: 0.5px solid rgb(58, 58, 58);
+   border-right: 0.5px solid rgb(58, 58, 58);
 }
 
 .tools .container {
    width: 49%;
    height: 100%;
    float: left;
-   border: 1px solid yellow;
+   text-align: center;
 }
 
 .tools_image {
@@ -356,22 +358,56 @@ div.areas_title p {
    float: right;
    background: url(../img/tools_image/Tools.svg);
    background-size: cover;
-   border: 1px solid blue;
 }
 
 .tools_image .photo-options {
    width: 270px;
-   margin: 0 auto;
+   margin: 671px 20px 0 0;
 }
 
 .tools_image div.sec {
-   width: 30px;
+   width: 44px;
 }
 
 .tools_image div.focus {
-   width: 55px;
+   width: 60px;
 }
 
 .tools_image div.iso {
    width: 70px;
+}
+
+.tools_image .location-img {
+   margin: 4px 3px 0 2px;
+}
+
+div.tools .text {
+   width: 580px;
+   height: 240px;
+   font-family: "Poppins", sans-serif;
+   color: #fff;
+   display: inline-block;
+   text-align: left;
+   margin: 230px 20px 0 0;
+}
+
+.tools .text h1 {
+   margin: 0 auto;
+   color: rgb(192, 192, 192);
+   font-weight: 200;
+   font-size: 14px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+
+.tools .text h2 {
+   margin: 0 auto;
+   font-weight: 200;
+   letter-spacing: 2px;
+   font-size: 28px;
+   color: #fff;
+}
+
+.tools .text p {
+   margin-top: 10px;
 }
