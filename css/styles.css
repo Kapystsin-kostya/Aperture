@@ -507,3 +507,54 @@ div.past-clients {
    color: #fff;
    margin-right: 140px;
 }
+
+div.himalayas {
+   width: 1920px;
+   height: 800px;
+   margin: 0 auto;
+   background: url(../img/HIMALAYAS.svg);
+   background-size: cover;
+   text-align: end;
+   border-left: 0.5px solid rgb(58, 58, 58);
+   border-right: 0.5px solid rgb(58, 58, 58);
+}
+
+.himalayas .text {
+   width: 295px;
+   display: inline-block;
+   font: 400 14px "Poppins", sans-serif;
+   color: rgb(192, 192, 192);
+   text-align: left;
+   margin: 380px 80px 0 0;
+}
+
+.himalayas .text h1 {
+   margin: 0 auto;
+   font-size: 14px;
+   font-weight: 200;
+   color: #fff;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+
+.himalayas .text p {
+   margin: 0 auto;
+}
+
+div.himalayas .photo-options {
+   margin: 250px -80px 0 0;
+   width: 290px;
+}
+
+.himalayas div.focus {
+   width: 58px;
+   margin: 0 auto;
+}
+
+.himalayas div.sec {
+   width: 34px;
+}
+
+.himalayas div.iso {
+   width: 72px;
+}
