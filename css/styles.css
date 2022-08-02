@@ -1,8 +1,9 @@
 body {
    background-color: black;
 }
+
 .header {
-   width: 1440px;
+   width: 1920px;
    height: 90px;
    margin: 0 auto;
    margin-top: -8px;
@@ -10,24 +11,29 @@ body {
    border-left: 0.5px solid rgb(58, 58, 58);
    border-right: 0.5px solid rgb(58, 58, 58);
 }
+
 .content {
    width: 83.4%;
    height: 98%;
    margin: 0 auto;
 }
+
 .logo {
    width: 20%;
    height: 100%;
    float: left;
 }
+
 .logo-img {
    padding: 30px 0px 0px 30px;
 }
+
 .button-template {
-   width: 15%;
+   width: 180px;
    height: 100%;
    float: right;
 }
+
 .button {
    border: none;
    background-color: rgb(255, 255, 255, 100%);
@@ -41,80 +47,93 @@ body {
    margin-top: 24px;
    border-radius: 14px;
 }
+
 .top-menu {
-   width: 50%;
+   width: 40%;
    height: 100%;
    float: left;
    font-family: "Poppins", sans-serif;
    font-size: 15px;
    color: rgb(255, 255, 255, 100%);
-   padding: 34px 0 0 145px;
+   margin: 33px 0 0 400px;
 }
+
 .menu-items {
    text-align: right;
    display: inline;
    list-style-type: none;
 }
+
 .menu-item {
-   margin-right: 35px;
+   margin-right: 50px;
    display: inline;
 }
+
 .main-page {
-   width: 1440px;
+   width: 1920px;
    height: 710px;
    margin: 0 auto;
    border-right: 1px solid rgb(58, 58, 58);
    border-left: 1px solid rgb(58, 58, 58);
-   background-image: url(../img/BACKGROUND.svg);
+   background: linear-gradient(360deg, #000000 18.78%, rgba(0, 0, 0, 0) 98.53%), url(../img/BACKGROUND.svg);
    background-size: cover;
 }
+
 .photo-options {
-   width: 22%;
+   width: 16%;
    height: 30px;
    font-family: "Poppins", sans-serif;
    font-size: 12px;
    color: rgb(255, 255, 255, 100%);
-   margin-left: 50px;
    float: right;
-   margin-top: 620px;
+   margin: 670px 85px 0 0;
 }
+
 .sec {
    width: 70px;
    height: 100%;
    float: left;
    margin-right: 5px;
 }
+
 .sec-img {
    margin: 4px 3px 0px 0px;
 }
+
 .focus {
    float: left;
    width: 50px;
    height: 100%;
    margin-right: 5px;
 }
+
 .focus-img {
    margin: 4px 3px 0px 8px;
 }
+
 .iso {
    float: left;
    width: 67px;
    height: 100%;
    margin-right: 5px;
 }
+
 .iso-img {
    margin: 4px 3px 0px 8px;
 }
+
 .location-img {
    margin: 4px 3px 0px 8px;
 }
+
 .main-page-content {
-   width: 42%;
+   width: 31%;
    height: 30%;
    float: left;
    text-align: center;
-   margin: 410px 0px 0px 420px;
+   margin: 410px 0px 0px 665px;
 }
+
 .text-profession {
    font-family: "Poppins", sans-serif;
    font-size: 14px;
@@ -122,6 +141,7 @@ body {
    letter-spacing: 2px;
    font-weight: 200;
 }
+
 .text-header {
    font-family: "Poppins", sans-serif;
    font-size: 54px;
@@ -129,26 +149,31 @@ body {
    margin-top: -20px;
    font-weight: 200;
 }
+
 .text-paragraph {
    font-family: "Poppins", sans-serif;
    font-size: 14px;
    color: rgb(192, 192, 192, 100%);
    margin-top: -38px;
 }
+
 ul.menu-items li:first-child {
    margin-right: 90px;
 }
+
 ul.menu-items li:last-child {
    margin: 0 auto;
 }
+
 section.areas {
-   width: 1440px;
+   width: 1920px;
    margin: 0 auto;
    padding-top: 50px;
    border-left: 1px solid rgb(58, 58, 58);
    border-right: 1px solid rgb(58, 58, 58);
    padding-bottom: 80px;
 }
+
 .areas_title {
    width: 600px;
    color: #fff;
@@ -157,40 +182,49 @@ section.areas {
    font-family: "Poppins", sans-serif;
    margin-bottom: 40px;
 }
+
 .areas_title .title {
    font-size: 40px;
    font-weight: 200;
    margin-bottom: -25px;
 }
+
 div.areas_title p {
    font-size: 23px;
    color: rgb(192, 192, 192, 100%);
 }
+
 .section-size {
-   width: 81.2%;
+   width: 62%;
    height: 617px;
    margin: 0 auto;
 }
+
 .block-size {
    width: 576px;
    height: 600px;
 }
+
 .apple {
    float: left;
    background: url(../img/areas_photo/apple.svg);
 }
+
 .architecture {
    float: right;
    background: url(../img/areas_photo/architecture.svg);
 }
+
 .drone {
    float: left;
    background: url(../img/areas_photo/drone.svg);
 }
+
 .wildlife {
    float: right;
    background: url(../img/areas_photo/wildlife.svg);
 }
+
 .areas-button {
    width: 143px;
    height: 42px;
@@ -198,6 +232,7 @@ div.areas_title p {
    background-color: rgb(255, 255, 255, 100%);
    border-radius: 14px;
 }
+
 .areas-button .circle {
    width: 32px;
    height: 32px;
@@ -206,15 +241,18 @@ div.areas_title p {
    border-radius: 50px;
    margin: 5px 0 0 5px;
 }
+
 .areas-button button {
    border: none;
    background-color: rgb(255, 255, 255, 100%);
    font: 400 15px "Poppins", sans-serif;
    margin: 8px 0 0 -5px;
 }
+
 .block-text {
    font: 14px "Poppins", sans-serif;
 }
+
 .block-text h3 {
    color: #fff;
    text-transform: uppercase;
@@ -222,54 +260,66 @@ div.areas_title p {
    letter-spacing: 2px;
    margin-bottom: -5px;
 }
+
 .block-text p {
    color: rgb(192, 192, 192, 100%);
    text-align: justify;
 }
+
 .areas-block-content {
    width: 515px;
    height: 180px;
    margin: 415px 0 0 25px;
 }
+
 .drone .areas-block-content {
    margin: 400px 0 0 25px;
 }
+
 .wildlife .areas-block-content {
    margin: 400px 0 0 25px;
 }
+
 .mount-fuji {
-   width: 1440px;
+   width: 1920px;
    height: 600px;
    margin: 0 auto;
    border-left: 1px solid rgb(58, 58, 58);
    border-right: 1px solid rgb(58, 58, 58);
    background: url(../img/Mount\ Fuji.svg);
+   background-size: cover;
    text-align: right;
 }
+
 .mount-fuji .photo-options {
    margin: 0 auto;
    float: none;
    width: 282px;
    display: inline-block;
-   margin: 200px 45px 0 0;
+   margin: 185px 75px 0 0;
 }
+
 .mount-fuji div.sec {
    margin-left: 6px;
 }
+
 .mount-fuji div.focus {
    width: 54px;
 }
+
 .mount-fuji div.iso {
    width: 73px;
 }
+
 .mount-fuji section.text {
    width: 305px;
    height: 85px;
    text-align: left;
    font: 400 14px "Poppins", sans-serif;
-   margin-left: 1095px;
-   padding-top: 260px;
+   margin-left: 1500px;
+   padding-top: 265px;
 }
+
 .mount-fuji section.text h3 {
    margin: 0 auto;
    color: #fff;
@@ -277,7 +327,11 @@ div.areas_title p {
    letter-spacing: 2px;
    text-transform: uppercase;
 }
+
 .mount-fuji section.text p {
    margin: 0 auto;
    color: rgb(192, 192, 192, 100%);
+}
+.drone-wildlife {
+   margin-top: 20px;
 }
