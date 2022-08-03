@@ -583,6 +583,7 @@ div.services .title {
 
 .services .areas-button {
    display: inline-block;
+   width: 150px;
 }
 
 .services .title h1 {
@@ -599,7 +600,7 @@ div.services .title {
 
 .footer {
    width: 1920px;
-   height: 800px;
+   height: 600px;
    margin: 0 auto;
    border-left: 0.5px solid rgb(58, 58, 58);
    border-right: 0.5px solid rgb(58, 58, 58);
@@ -607,7 +608,7 @@ div.services .title {
 
 footer .menu-list {
    width: 82%;
-   height: 300px;
+   height: 250px;
    margin: 0 auto;
 }
 
@@ -661,4 +662,87 @@ div.business_areas li {
    font: 400 14px "Poppins", sans-serif;
    color: #fff;
    margin-bottom: 10px;
+}
+
+div.subscribe {
+   width: 82%;
+   height: 55px;
+   margin: 0 auto;
+   border-top: 2px solid #fff;
+   border-bottom: 2px solid #fff;
+   padding: 40px 0;
+}
+
+.subscribe .text {
+   width: 300px;
+   float: left;
+}
+
+.subscribe .text h1 {
+   font: 200 14px "Poppins", sans-serif;
+   color: #fff;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   margin: 0 auto;
+}
+
+.subscribe .text p {
+   font: 400 13px "Poppins", sans-serif;
+   color: rgb(192, 192, 192);
+}
+
+.subscribe_button {
+   float: right;
+   width: 500px;
+   height: 55px;
+   margin: 0 auto;
+   background-color: rgb(249, 250, 251);
+   border-radius: 12px;
+}
+
+.subscribe_button div {
+   float: right;
+   width: 63px;
+   height: 30px;
+   background: #000000;
+   margin: 12px;
+   border-radius: 10px;
+}
+
+footer .licensing {
+   width: 82%;
+   margin: 0 auto;
+   height: 100px;
+   padding-top: 60px;
+}
+
+.licensing .text {
+   font: 400 14px "Poppins", sans-serif;
+   color: rgb(192, 192, 192);
+   float: left;
+}
+
+.licensing .text p {
+   margin: 0 auto;
+}
+
+.licensing .text span {
+   font-size: 13px;
+}
+
+.soc-networks {
+   float: right;
+}
+
+.soc-networks img:first-child {
+   float: left;
+}
+
+.soc-networks img:nth-child(2) {
+   float: right;
+   margin-left: 30px;
+}
+
+.soc-networks img:last-child {
+   margin-left: 30px;
 }
