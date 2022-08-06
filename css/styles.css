@@ -1,5 +1,6 @@
 body {
    background-color: black;
+   min-width: 600px;
 }
 
 .header {
@@ -23,15 +24,28 @@ body {
    margin-left: 80px;
 }
 
+@media (max-width: 1024px) {
+   .logo {
+      margin-left: 20px;
+   }
+}
+
 .logo-img {
    padding: 30px 0px 0px 30px;
 }
 
-.button-template {
+div.button-template {
    width: 160px;
    height: 100%;
    float: right;
    margin-right: 100px;
+}
+
+@media (max-width: 1024px) {
+   div.button-template {
+      width: 145px;
+      margin-right: 20px;
+   }
 }
 
 .button {
@@ -48,12 +62,29 @@ body {
    border-radius: 14px;
 }
 
+@media (max-width: 1024px) {
+   .button {
+      width: 131px;
+      height: 33px;
+      font-size: 13px;
+   }
+}
+
 nav.top-menu {
    float: right;
    font-family: "Poppins", sans-serif;
    font-size: 15px;
    color: rgb(255, 255, 255);
    padding: 33px 40px 0 0;
+}
+
+@media (max-width: 1024px) {
+   nav.top-menu {
+      color: #fff;
+      padding: 33px 20px 0 0;
+      font-weight: 600;
+      font-size: 12px;
+   }
 }
 
 .menu-items {
@@ -66,6 +97,20 @@ nav.top-menu {
 .menu-item {
    margin-right: 30px;
    display: inline;
+}
+
+ul.menu-items li:first-child {
+   margin-right: 60px;
+}
+
+@media (max-width: 1024px) {
+   ul.menu-items li:first-child {
+      margin-right: 30px;
+   }
+}
+
+ul.menu-items li:last-child {
+   margin: 0 auto;
 }
 
 .main-page {
@@ -82,6 +127,12 @@ nav.top-menu {
    text-align: center;
    margin: 0 auto;
    padding-top: 480px;
+}
+
+@media (max-width: 1230px) {
+   .main-page .text {
+      padding-top: 250px;
+   }
 }
 
 .main-page .text h1 {
@@ -150,14 +201,6 @@ nav.top-menu {
 
 div.photo-options span {
    vertical-align: top;
-}
-
-ul.menu-items li:first-child {
-   margin-right: 60px;
-}
-
-ul.menu-items li:last-child {
-   margin: 0 auto;
 }
 
 section.areas {
@@ -313,6 +356,18 @@ section.drone-wildlife {
    margin: 275px 75px 0 0;
 }
 
+@media (max-width: 1400px) {
+   .mount-fuji section.text {
+      margin: 225px 75px 0 0;
+   }
+}
+
+@media (max-width: 1230px) {
+   .mount-fuji section.text {
+      margin: 145px 75px 0 0;
+   }
+}
+
 .mount-fuji section.text h3 {
    margin: 0 auto;
    color: #fff;
@@ -335,6 +390,18 @@ div.tools {
    margin: 0 auto;
 }
 
+@media (max-width: 1400px) {
+   div.tools {
+      margin-top: -77px;
+   }
+}
+
+@media (max-width: 1230px) {
+   div.tools {
+      margin-top: -178px;
+   }
+}
+
 .tools .container {
    width: 49%;
    height: 100%;
@@ -350,10 +417,28 @@ div.tools {
    background-size: 100% 100%;
 }
 
+@media (max-width: 1400px) {
+   .tools_image {
+      width: 696px;
+   }
+}
+
+@media (max-width: 1230px) {
+   .tools_image {
+      width: 611px;
+   }
+}
+
 .tools_image .photo-options {
    width: 270px;
    margin: 500px 40px 0 0;
    float: right;
+}
+
+@media (max-width: 1230px) {
+   .tools_image .photo-options {
+      margin: 470px 40px 0 0;
+   }
 }
 
 .tools_image div.sec {
@@ -410,6 +495,18 @@ div.monstera {
    text-align: end;
 }
 
+@media (max-width: 1400px) {
+   div.monstera {
+      margin-top: -21px;
+   }
+}
+
+@media (max-width: 1230px) {
+   div.monstera {
+      margin-top: -52px;
+   }
+}
+
 .monstera .text {
    width: 295px;
    display: inline-block;
@@ -417,6 +514,18 @@ div.monstera {
    color: rgb(192, 192, 192);
    text-align: left;
    margin: 250px 50px 0 0;
+}
+
+@media (max-width: 1400px) {
+   .monstera .text {
+      margin: 185px 50px 0 0;
+   }
+}
+
+@media (max-width: 1230px) {
+   .monstera .text {
+      margin: 88px 50px 0 0;
+   }
 }
 
 .monstera .text h1 {
@@ -451,6 +560,12 @@ div.past-clients {
    margin: 0 auto;
    text-align: center;
    padding-bottom: 110px;
+}
+
+@media (max-width: 1230px) {
+   div.past-clients {
+      margin-top: -145px;
+   }
 }
 
 .past_clients_container {
@@ -493,6 +608,10 @@ div.past-clients {
    margin-right: 120px;
 }
 
+.companies ul {
+   padding: 0;
+}
+
 @media (min-width: 1900px) {
    .companies_list .item {
       margin-right: 170px;
@@ -518,6 +637,18 @@ div.himalayas {
    color: rgb(192, 192, 192);
    text-align: left;
    margin: 260px 80px 0 0;
+}
+
+@media (max-width: 1400px) {
+   .himalayas .text {
+      margin: 200px 80px 0 0;
+   }
+}
+
+@media (max-width: 1230px) {
+   .himalayas .text {
+      margin: 130px 80px 0 0;
+   }
 }
 
 .himalayas .text h1 {
@@ -612,6 +743,12 @@ footer .aperture {
    float: right;
 }
 
+@media (max-width: 1230px) {
+   .menu-list .pages {
+      margin-right: -175px;
+   }
+}
+
 ul.pages_menu {
    list-style-type: none;
    padding: 0;
@@ -632,7 +769,7 @@ ul.pages_menu {
    margin-bottom: 10px;
 }
 
-.business_areas {
+.menu-list .business_areas {
    width: 250px;
    float: right;
 }
