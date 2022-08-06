@@ -562,6 +562,12 @@ div.past-clients {
    padding-bottom: 110px;
 }
 
+@media (max-width: 1400px) {
+   div.past-clients {
+      margin-top: -45px;
+   }
+}
+
 @media (max-width: 1230px) {
    div.past-clients {
       margin-top: -145px;
