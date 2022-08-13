@@ -24,12 +24,6 @@ body {
    margin-left: 80px;
 }
 
-@media (max-width: 1024px) {
-   .logo {
-      margin-left: 20px;
-   }
-}
-
 .logo-img {
    padding: 30px 0px 0px 30px;
 }
@@ -39,13 +33,6 @@ div.button-template {
    height: 100%;
    float: right;
    margin-right: 100px;
-}
-
-@media (max-width: 1024px) {
-   div.button-template {
-      width: 145px;
-      margin-right: 20px;
-   }
 }
 
 .button {
@@ -62,29 +49,12 @@ div.button-template {
    border-radius: 14px;
 }
 
-@media (max-width: 1024px) {
-   .button {
-      width: 131px;
-      height: 33px;
-      font-size: 13px;
-   }
-}
-
 nav.top-menu {
    float: right;
    font-family: "Poppins", sans-serif;
    font-size: 15px;
    color: rgb(255, 255, 255);
    padding: 33px 40px 0 0;
-}
-
-@media (max-width: 1024px) {
-   nav.top-menu {
-      color: #fff;
-      padding: 33px 20px 0 0;
-      font-weight: 600;
-      font-size: 12px;
-   }
 }
 
 .menu-items {
@@ -103,12 +73,6 @@ ul.menu-items li:first-child {
    margin-right: 60px;
 }
 
-@media (max-width: 1024px) {
-   ul.menu-items li:first-child {
-      margin-right: 30px;
-   }
-}
-
 ul.menu-items li:last-child {
    margin: 0 auto;
 }
@@ -123,23 +87,9 @@ ul.menu-items li:last-child {
 
 .main-page .text {
    width: 600px;
-   max-width: 40%;
    text-align: center;
    margin: 0 auto;
    padding-top: 480px;
-}
-
-@media (max-width: 1230px) {
-   .main-page .text {
-      padding-top: 250px;
-   }
-}
-
-@media (max-width: 1024px) {
-   .main-page .text {
-      padding-top: 250px;
-      max-width: 46%;
-   }
 }
 
 .main-page .text h1 {
@@ -149,34 +99,15 @@ ul.menu-items li:last-child {
    margin: 0 auto;
 }
 
-@media (max-width: 1024px) {
-   .main-page .text h1 {
-      font-size: 11px;
-   }
-}
-
 .main-page .text h2 {
    font: 200 54px "Poppins", sans-serif;
    color: #fff;
    margin: 0 auto;
 }
 
-@media (max-width: 1024px) {
-   .main-page .text h2 {
-      font-size: 35px;
-   }
-}
-
 .main-page .text p {
    font: 14px "Poppins", sans-serif;
    color: rgb(192, 192, 192);
-}
-
-@media (max-width: 1024px) {
-   .main-page .text p {
-      font-size: 11px;
-      margin: 0 auto;
-   }
 }
 
 .photo-options {
@@ -188,12 +119,6 @@ ul.menu-items li:last-child {
    margin: 30px 50px 0 0;
 }
 
-@media (max-width: 1024px) {
-   .photo-options {
-      font-size: 8px;
-   }
-}
-
 .sec {
    width: 70px;
    height: 100%;
@@ -201,21 +126,10 @@ ul.menu-items li:last-child {
    margin-right: 5px;
 }
 
-@media (max-width: 1024px) {
-   .sec {
-      width: 115px;
-   }
-}
-
 .sec-img {
    margin: 4px 3px 0px 0px;
 }
 
-@media (max-width: 1024px) {
-   .sec-img {
-      width: 13px;
-   }
-}
 .focus {
    float: left;
    width: 50px;
@@ -223,20 +137,8 @@ ul.menu-items li:last-child {
    margin-right: 5px;
 }
 
-@media (max-width: 1024px) {
-   .focus {
-      width: 39px;
-   }
-}
-
 .focus-img {
    margin: 4px 3px 0px 8px;
-}
-
-@media (max-width: 1024px) {
-   .focus-img {
-      width: 13px;
-   }
 }
 
 .iso {
@@ -246,20 +148,8 @@ ul.menu-items li:last-child {
    margin-right: 5px;
 }
 
-@media (max-width: 1024px) {
-   .iso {
-      width: 49px;
-   }
-}
-
 .iso-img {
    margin: 4px 3px 0px 8px;
-}
-
-@media (max-width: 1024px) {
-   .iso-img {
-      width: 23px;
-   }
 }
 
 .location-img {
@@ -303,48 +193,33 @@ section.areas {
    margin: 0 auto;
 }
 
-@media (max-width: 1024px) {
-   .section-size {
-      width: 965px;
-   }
-}
-
 .block-size {
-   width: 576px;
+   width: 572px;
    height: 600px;
-}
-
-@media (max-width: 1024px) {
-   .block-size {
-      width: 478px;
-      height: 497px;
-   }
 }
 
 .apple {
    float: left;
-   background: url(../img/areas_photo/apple.svg);
-}
-
-@media (max-width: 1024px) {
-   .apple div.block-text p {
-      margin-bottom: 30px;
-   }
+   background: url(../img/areas_photo/apple.svg) no-repeat;
 }
 
 .architecture {
    float: right;
-   background: url(../img/areas_photo/architecture.svg);
+   background: url(../img/areas_photo/architecture.svg) no-repeat;
 }
 
 .drone {
    float: left;
-   background: url(../img/areas_photo/drone.svg);
+   background: url(../img/areas_photo/drone.svg) no-repeat;
 }
 
 .wildlife {
    float: right;
-   background: url(../img/areas_photo/wildlife.svg);
+   background: url(../img/areas_photo/wildlife.svg) no-repeat;
+}
+
+section.drone-wildlife {
+   margin-top: 8px;
 }
 
 .areas-button {
@@ -373,13 +248,17 @@ section.areas {
 
 .block-text {
    font: 14px "Poppins", sans-serif;
+   width: 527px;
+   padding-left: 20px;
+   margin-top: 400px;
 }
 
-@media (max-width: 1024px) {
-   .block-text {
-      width: 438px;
-      margin-top: -120px;
-   }
+.apple .block-text {
+   margin-top: 415px;
+}
+
+.architecture .block-text {
+   margin-top: 415px;
 }
 
 .block-text h3 {
@@ -395,55 +274,20 @@ section.areas {
    text-align: justify;
 }
 
-.areas-block-content {
-   width: 515px;
-   height: 180px;
-   margin: 415px 0 0 25px;
-}
-
-.drone .areas-block-content {
-   margin: 400px 0 0 25px;
-}
-
-.wildlife .areas-block-content {
-   margin: 400px 0 0 25px;
-}
-
-section.drone-wildlife {
-   margin-top: 0px;
-}
-
-@media (max-width: 1024px) {
-   section.drone-wildlife {
-      margin-top: -107px;
-   }
-}
-
 .mount-fuji {
    width: 100%;
-   height: 625px;
+   height: 100%;
    margin: 0 auto;
    background: url(../img/Mount\ Fuji.svg) no-repeat;
    background-size: 100%;
    text-align: right;
 }
 
-@media (max-width: 1024px) {
-   .mount-fuji {
-      margin-top: -190px;
-   }
-}
-
 .mount-fuji .photo-options {
    width: 282px;
    display: inline-block;
    margin: 200px 0 0 80px;
-}
-
-@media (max-width: 1024px) {
-   .mount-fuji .photo-options {
-      margin: 200px 0 0 160px;
-   }
+   padding-bottom: 15px;
 }
 
 .mount-fuji div.sec {
@@ -451,30 +295,12 @@ section.drone-wildlife {
    width: 33px;
 }
 
-@media (max-width: 1024px) {
-   .mount-fuji div.sec {
-      width: 24px;
-   }
-}
-
 .mount-fuji div.focus {
    width: 54px;
 }
 
-@media (max-width: 1024px) {
-   .mount-fuji div.focus {
-      width: 41px;
-   }
-}
-
 .mount-fuji div.iso {
    width: 73px;
-}
-
-@media (max-width: 1024px) {
-   .mount-fuji div.iso {
-      width: 52px;
-   }
 }
 
 .mount-fuji section.text {
@@ -483,24 +309,6 @@ section.drone-wildlife {
    font: 400 14px "Poppins", sans-serif;
    display: inline-block;
    margin: 275px 75px 0 0;
-}
-
-@media (max-width: 1400px) {
-   .mount-fuji section.text {
-      margin: 225px 75px 0 0;
-   }
-}
-
-@media (max-width: 1230px) {
-   .mount-fuji section.text {
-      margin: 145px 75px 0 0;
-   }
-}
-
-@media (max-width: 1024px) {
-   .mount-fuji section.text {
-      margin: 75px 75px 0 0;
-   }
 }
 
 .mount-fuji section.text h3 {
@@ -515,118 +323,37 @@ section.drone-wildlife {
    margin: 0 auto;
    color: rgb(192, 192, 192);
 }
-.drone-wildlife {
-   margin-top: 20px;
-}
 
 div.tools {
    width: 100%;
-   height: 563px;
+   height: 540px;
    margin: 0 auto;
+   background: url(../img/tools_image/Tools.svg) right no-repeat;
+   text-align: end;
 }
 
-@media (max-width: 1400px) {
-   div.tools {
-      margin-top: -77px;
-   }
+.tools .content {
+   padding: 140px 0 0 5%;
+   height: 310px;
 }
 
-@media (max-width: 1230px) {
-   div.tools {
-      margin-top: -178px;
-   }
-}
-
-@media (max-width: 1024px) {
-   div.tools {
-      margin-top: -301px;
-   }
-}
-
-.tools .container {
-   width: 49%;
-   height: 100%;
-   float: left;
-   text-align: center;
-}
-
-.tools_image {
-   width: 752px;
-   height: 100%;
-   float: right;
-   background: url(../img/tools_image/Tools.svg);
-   background-size: 100% 100%;
-}
-
-@media (max-width: 1400px) {
-   .tools_image {
-      width: 696px;
-   }
-}
-
-@media (max-width: 1230px) {
-   .tools_image {
-      width: 611px;
-   }
-}
-
-@media (max-width: 1024px) {
-   .tools_image {
-      width: 508px;
-   }
-}
-
-.tools_image .photo-options {
+div.tools .photo-options {
    width: 270px;
-   margin: 500px 40px 0 0;
-   float: right;
 }
 
-@media (max-width: 1230px) {
-   .tools_image .photo-options {
-      margin: 470px 40px 0 0;
-   }
-}
-
-@media (max-width: 1024px) {
-   .tools_image .photo-options {
-      margin: 440px -50px 0 0;
-   }
-}
-
-.tools_image div.sec {
+.tools div.sec {
    width: 44px;
 }
 
-@media (max-width: 1024px) {
-   .tools_image div.sec {
-      width: 34px;
-      margin-right: 0px;
-   }
-}
-
-.tools_image div.focus {
+.tools div.focus {
    width: 60px;
 }
 
-@media (max-width: 1024px) {
-   .tools_image div.focus {
-      width: 48px;
-      margin-right: 0px;
-   }
-}
-
-.tools_image div.iso {
+.tools div.iso {
    width: 70px;
 }
 
-@media (max-width: 1024px) {
-   .tools_image div.iso {
-      width: 54px;
-   }
-}
-
-.tools_image .location-img {
+.tools .location-img {
    margin: 4px 3px 0 2px;
 }
 
@@ -634,32 +361,24 @@ div.tools .text {
    width: 580px;
    font-family: "Poppins", sans-serif;
    color: #fff;
-   display: inline-block;
    text-align: left;
-   margin: 185px 20px 0 0;
 }
 
-@media (max-width: 1024px) {
-   div.tools .text {
-      width: 485px;
-   }
-}
-
-.tools .text h1 {
+.tools h1 {
    margin: 0 auto;
    color: rgb(192, 192, 192);
-   font-weight: 200;
-   font-size: 14px;
+   font: 200 14px "Poppins", sans-serif;
    letter-spacing: 2px;
    text-transform: uppercase;
+   text-align: left;
 }
 
-.tools .text h2 {
+.tools h2 {
    margin: 0 auto;
-   font-weight: 200;
+   font: 200 28px "Poppins", sans-serif;
    letter-spacing: 2px;
-   font-size: 28px;
    color: #fff;
+   text-align: left;
 }
 
 .tools .text p {
@@ -674,24 +393,6 @@ div.monstera {
    text-align: end;
 }
 
-@media (max-width: 1400px) {
-   div.monstera {
-      margin-top: -21px;
-   }
-}
-
-@media (max-width: 1230px) {
-   div.monstera {
-      margin-top: -52px;
-   }
-}
-
-@media (max-width: 1024px) {
-   div.monstera {
-      margin-top: -91px;
-   }
-}
-
 .monstera .text {
    width: 295px;
    display: inline-block;
@@ -699,24 +400,6 @@ div.monstera {
    color: rgb(192, 192, 192);
    text-align: left;
    margin: 250px 50px 0 0;
-}
-
-@media (max-width: 1400px) {
-   .monstera .text {
-      margin: 185px 50px 0 0;
-   }
-}
-
-@media (max-width: 1230px) {
-   .monstera .text {
-      margin: 88px 50px 0 0;
-   }
-}
-
-@media (max-width: 1024px) {
-   .monstera .text {
-      margin: -25px 50px 0 0;
-   }
 }
 
 .monstera .text h1 {
@@ -738,36 +421,12 @@ div.monstera .photo-options {
    margin: 230px 0 0 30px;
 }
 
-@media (max-width: 1024px) {
-   div.monstera .photo-options {
-      margin: 230px 0 0 95px;
-   }
-}
-
 .monstera div.focus {
    width: 58px;
 }
 
-@media (max-width: 1024px) {
-   .monstera div.focus {
-      width: 44px;
-   }
-}
-
 .monstera div.sec {
    width: 61px;
-}
-
-@media (max-width: 1024px) {
-   .monstera div.sec {
-      width: 44px;
-   }
-}
-
-@media (max-width: 1024px) {
-   .monstera div.iso {
-      width: 49px;
-   }
 }
 
 div.past-clients {
@@ -775,25 +434,6 @@ div.past-clients {
    margin: 0 auto;
    text-align: center;
    padding-bottom: 110px;
-}
-
-@media (max-width: 1400px) {
-   div.past-clients {
-      margin-top: -45px;
-   }
-}
-
-@media (max-width: 1230px) {
-   div.past-clients {
-      margin-top: -145px;
-   }
-}
-
-@media (max-width: 1024px) {
-   div.past-clients {
-      margin-top: -250px;
-      padding-bottom: 80px;
-   }
 }
 
 .past_clients_container {
@@ -836,20 +476,8 @@ div.past-clients {
    margin-right: 120px;
 }
 
-@media (max-width: 1024px) {
-   .companies_list .item {
-      margin-right: 60px;
-   }
-}
-
 .companies ul {
    padding: 0;
-}
-
-@media (min-width: 1900px) {
-   .companies_list .item {
-      margin-right: 170px;
-   }
 }
 
 .companies li:last-child {
@@ -873,24 +501,6 @@ div.himalayas {
    margin: 260px 80px 0 0;
 }
 
-@media (max-width: 1400px) {
-   .himalayas .text {
-      margin: 200px 80px 0 0;
-   }
-}
-
-@media (max-width: 1230px) {
-   .himalayas .text {
-      margin: 130px 80px 0 0;
-   }
-}
-
-@media (max-width: 1024px) {
-   .himalayas .text {
-      margin: 50px 80px 0 0;
-   }
-}
-
 .himalayas .text h1 {
    margin: 0 auto;
    font-size: 14px;
@@ -910,42 +520,17 @@ div.himalayas .photo-options {
    padding-bottom: 20px;
 }
 
-@media (max-width: 1024px) {
-   div.himalayas .photo-options {
-      margin: 217px 0 0 155px;
-   }
-}
-
 .himalayas div.focus {
    width: 58px;
    margin: 0 auto;
-}
-
-@media (max-width: 1024px) {
-   .himalayas div.focus {
-      width: 42px;
-   }
 }
 
 .himalayas div.sec {
    width: 34px;
 }
 
-@media (max-width: 1024px) {
-   .himalayas div.sec {
-      width: 26px;
-   }
-}
-
 .himalayas div.iso {
    width: 72px;
-}
-
-@media (max-width: 1024px) {
-   .himalayas div.iso {
-      width: 54px;
-      margin-right: 0;
-   }
 }
 
 div.services {
@@ -1006,12 +591,6 @@ footer .aperture {
 .menu-list .pages {
    width: 300px;
    float: right;
-}
-
-@media (max-width: 1230px) {
-   .menu-list .pages {
-      margin-right: -175px;
-   }
 }
 
 ul.pages_menu {
@@ -1132,4 +711,59 @@ footer .licensing {
 
 .soc-networks img:last-child {
    margin-left: 30px;
+}
+
+@media (max-width: 1500px) {
+   .mount-fuji section.text {
+      margin-top: calc(1px + (250 - 1) * ((100vw - 800px) / (1500 - 900)));
+   }
+
+   .mount-fuji .photo-options {
+      padding-bottom: 0;
+   }
+
+   .monstera .text {
+      margin-top: calc(1px + (150 - 1) * ((100vw - 800px) / (1500 - 900)));
+      padding-bottom: 15px;
+   }
+
+   div.monstera {
+      height: 100%;
+   }
+}
+
+@media (max-width: 1200px) {
+   .areas .section-size {
+      width: 100%;
+   }
+
+   .areas .block-size {
+      width: 49%;
+   }
+
+   .areas .block-text {
+      width: 93%;
+      margin-top: 350px;
+   }
+
+   section.areas {
+      padding-bottom: 0;
+   }
+}
+
+@media (min-width: 960px) and (max-width: 1180px) {
+   .companies_list .item {
+      margin-right: 60px;
+   }
+}
+
+@media (max-width: 960px) {
+   .companies_list .item {
+      display: block;
+      margin: 0 0 60px 0;
+   }
+
+   div.past-clients {
+      padding: 0;
+   }
 }
