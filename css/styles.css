@@ -332,29 +332,9 @@ div.tools {
    text-align: end;
 }
 
-.tools .content {
+.tools .text-content {
    padding: 140px 0 0 5%;
    height: 310px;
-}
-
-div.tools .photo-options {
-   width: 270px;
-}
-
-.tools div.sec {
-   width: 44px;
-}
-
-.tools div.focus {
-   width: 60px;
-}
-
-.tools div.iso {
-   width: 70px;
-}
-
-.tools .location-img {
-   margin: 4px 3px 0 2px;
 }
 
 div.tools .text {
@@ -383,6 +363,26 @@ div.tools .text {
 
 .tools .text p {
    margin-top: 10px;
+}
+
+div.tools .photo-options {
+   width: 270px;
+}
+
+.tools div.sec {
+   width: 44px;
+}
+
+.tools div.focus {
+   width: 60px;
+}
+
+.tools div.iso {
+   width: 70px;
+}
+
+.tools .location-img {
+   margin: 4px 3px 0 2px;
 }
 
 div.monstera {
@@ -607,7 +607,7 @@ ul.pages_menu {
    text-transform: uppercase;
 }
 
-.list_font {
+.pages_menu li {
    font: 400 13px "Poppins", sans-serif;
    color: #fff;
    margin-bottom: 10px;
@@ -730,6 +730,11 @@ footer .licensing {
    div.monstera {
       height: 100%;
    }
+
+   .himalayas .text {
+      margin-top: calc(1px + (210 - 1) * ((100vw - 800px) / (1500 - 900)));
+      width: 315px;
+   }
 }
 
 @media (max-width: 1200px) {
@@ -749,6 +754,14 @@ footer .licensing {
    section.areas {
       padding-bottom: 0;
    }
+
+   .himalayas .text {
+      margin-top: calc(1px + (170 - 1) * ((100vw - 800px) / (1500 - 900)));
+   }
+
+   .menu-list .pages {
+      width: 130px;
+   }
 }
 
 @media (min-width: 960px) and (max-width: 1180px) {
@@ -765,5 +778,89 @@ footer .licensing {
 
    div.past-clients {
       padding: 0;
+   }
+}
+
+@media (max-width: 1000px) {
+   footer .aperture {
+      float: none;
+      padding-bottom: 10px;
+   }
+
+   .menu-list .business_areas {
+      float: left;
+   }
+
+   .menu-list .pages {
+      float: left;
+   }
+
+   div.subscribe {
+      margin-top: 75px;
+      height: 120px;
+   }
+
+   .subscribe .text {
+      float: none;
+   }
+
+   .subscribe_button {
+      float: left;
+   }
+}
+
+@media (min-width: 1800px) {
+   .mount-fuji {
+      height: 735px;
+   }
+
+   .mount-fuji section.text {
+      margin-top: 315px;
+   }
+
+   .mount-fuji .photo-options {
+      padding-bottom: 0;
+      margin-top: 285px;
+   }
+
+   div.tools .text {
+      width: 825px;
+   }
+
+   .tools .text-content {
+      padding: 140px 0 0 7%;
+   }
+
+   div.monstera {
+      height: 720px;
+   }
+
+   .monstera .text {
+      margin-top: 310px;
+   }
+
+   div.monstera .photo-options {
+      margin-top: 275px;
+   }
+
+   .companies_list .item {
+      margin-right: 200px;
+   }
+
+   div.himalayas {
+      height: 730px;
+   }
+
+   .himalayas .text {
+      width: 310px;
+      margin-top: 330px;
+   }
+
+   div.himalayas .photo-options {
+      margin-top: 270px;
+   }
+
+   .menu-list .pages {
+      width: 130px;
    }
 }
